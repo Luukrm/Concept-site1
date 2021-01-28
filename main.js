@@ -49,8 +49,10 @@ $(document).scroll(function () {
     } else {
         $('.stats-number').fadeOut();
     }
-
 });
+
+
 countingThroughWeight();
 countingThroughFat();
 countingThroughMuscle();
+

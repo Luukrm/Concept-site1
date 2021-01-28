@@ -170,3 +170,40 @@ body {
     width: 100%;
     max-width: 50%;
 }
+.calc-header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.calc-container {
+    margin-top: 5%;
+    background-color: #00D084;
+    width: 45vw;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.calc-title {
+    color: #202336;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    height: 100%;
+    font-size: 28px;
+    margin-top: 1.2%
+}
+
+.calculator {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.calculator-container {
+    background-color: #E4F8F1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 45vw;
+    /*border-radius: 8px;*/
+    border: 1px solid #E4F8F1;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
