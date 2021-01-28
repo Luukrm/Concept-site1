@@ -35,7 +35,7 @@
     height: 85px;
     justify-content: space-between;
     align-content: center;
-    background-color: transparent;
+    background-color: white;
     z-index: 2;
 }
 
@@ -43,11 +43,6 @@ a {
     text-decoration: none;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 .nav-links {
     margin-top: 2em;
@@ -95,3 +90,12 @@ a.active {
     }
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*border-bottom: 1px solid #202336;*/
+}
+.sticky + .banner {
+    padding-top: 60px;
+}
