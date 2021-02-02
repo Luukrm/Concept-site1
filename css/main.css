@@ -136,7 +136,7 @@ body {
     color: #202336;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 4.0625rem;
     text-align: center;
     justify-content: center;
     margin-top: 6%;
@@ -150,6 +150,7 @@ body {
     text-align: center;
     margin-top: 3%;
 }
+
 .goals-paragraph {
     margin-top: -1%;
     color: #202336;
@@ -159,30 +160,39 @@ body {
     font-weight: 300;
 
 }
+
 .goals-container {
     margin-top: 2%;
     display: flex;
     justify-content: space-evenly;
 }
+
 .roadmap-illu {
     height: auto;
     max-height: 400px;
     width: 100%;
     max-width: 50%;
 }
+
 .calc-header {
     display: flex;
     align-content: center;
     justify-content: center;
 }
+
 .calc-container {
     margin-top: 5%;
-    background-color: #00D084;
+    background-color: white;
+    border-top: 1px solid #DADCE0;
+    border-left: 1px solid #DADCE0;
+    border-right: 1px solid #DADCE0;
+
     width: 45vw;
     height: 50px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
 .calc-title {
     color: #202336;
     font-family: 'Montserrat', sans-serif;
@@ -197,13 +207,67 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
+
 .calculator-container {
-    background-color: #E4F8F1;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
     width: 45vw;
     /*border-radius: 8px;*/
-    border: 1px solid #E4F8F1;
+    border: 1px solid #DADCE0;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+
+fieldset {
+    margin-top: 3%;
+    border: none;
+    text-align: center;
+}
+
+.result {
+    color: #202336;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    height: 100%;
+    font-size: 28px;
+}
+
+.bmi-button {
+    border: none;
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input {
+    text-align: justify;
+    color: #2E3142;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    font-size: 18px;
+}
+
+.category {
+    color: #2E3142;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    font-size: 25px;
+}
+
+.footer-title {
+    color: #202336;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    border-top: 1px solid #DADCE0;
+    padding-top: 18px;
 }

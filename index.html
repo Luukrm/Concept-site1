@@ -22,18 +22,21 @@
     </div>
     <ul class="nav-links">
         <li class="nav-item hvr-underline-from-left"><a class="nav-item__a active"
-                                                        style="color: #202336;">About me</a></li>
+                                                        style="color: #202336;">Home</a></li>
         <li class="nav-item hvr-underline-from-left"><a class="nav-item__a"
-                                                        style="color: #202336;">Projects</a>
+                                                        style="color: #202336;">Stats</a>
         </li>
         <li class="nav-item hvr-underline-from-left"><a class="nav-item__a"
-                                                        style="color: #202336;">Contact</a>
+                                                        style="color: #202336;">Goals</a>
+        </li>
+        <li class="nav-item hvr-underline-from-left"><a class="nav-item__a"
+                                                        style="color: #202336;">Bmi calculator</a>
         </li>
     </ul>
 </nav>
 <div class="banner">
     <div class="banner-text">
-        <h1 class="banner-title">Weight Loss<br> Journey</h1>
+        <h1 class="banner-title">Lorem dolor<br> Ipsum</h1>
         <p class="banner-paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat."</p>
@@ -188,20 +191,26 @@
     </div>
 </div>
 <div class="calc-header">
-    <div class="calc-container">
-        <h3 class="calc-title">Calculate you're Bmi</h3>
+    <div class="calc-container" id="header">
+        <h3 class="calc-title" id="title">Calculate you're Bmi</h3>
     </div>
 </div>
 <div class="calculator">
     <div class="calculator-container">
-        <h1>test</h1>
+        <form action="">
+            <fieldset>
+                <label class="input" for="inputHeight">Height(CM) </label><input type="number" id="inputHeight"/>
+                <label class="input" for="inputWeight">Weight(Kg) </label><input type="number" id="inputWeight"/>
+                <input class="bmi-button" type="button" value="Calculate" onclick="calcBMI()"/>
+
+                <p class="result" id="result">Calculate you're Bmi</p>
+                <p class="category" id="category"></p>
+            </fieldset>
+        </form>
     </div>
 </div>
-
+<h1 class="footer-title">Copyright by Luuk M | © </h1>
 <script src="main.js" rel="script"></script>
-
-
-
 </body>
 </html>
 

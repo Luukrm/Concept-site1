@@ -96,6 +96,7 @@ a.active {
     width: 100%;
     /*border-bottom: 1px solid #202336;*/
 }
+
 .sticky + .banner {
     padding-top: 60px;
 }
