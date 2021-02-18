@@ -7,6 +7,9 @@
     position: relative;
     overflow: hidden;
 }
+.nav-item__a {
+    color: #202336;
+}
 
 .nav-item:before {
     content: "";
@@ -94,7 +97,6 @@ a.active {
     position: fixed;
     top: 0;
     width: 100%;
-    /*border-bottom: 1px solid #202336;*/
 }
 
 .sticky + .banner {
